@@ -1,4 +1,4 @@
-![zew logo](https://raw.githubusercontent.com/psprint/zplugin/master/doc/img/zplugin.png)
+![zew logo](https://raw.githubusercontent.com/z-shell/zplugin-legacy/main/doc/img/zplugin.png)
 
 # Zplugin
 
@@ -163,7 +163,7 @@ LICENSE                testplugin2.plugin.zsh
 Execute:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/psprint/zplugin/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/z-shell/zplugin-legacy/main/doc/install.sh)"
 ```
 
 To update run the command again (or just execute `doc/install.sh`).
@@ -182,7 +182,7 @@ To manually install `Zplugin` clone the repo to e.g. `~/.zplugin/bin`:
 
 ```sh
 mkdir ~/.zplugin
-git clone https://github.com/psprint/zplugin.git ~/.zplugin/bin
+git clone https://github.com/z-shell/zplugin-legacy.git ~/.zplugin/bin
 ```
 
 and source it from `.zshrc` (**above compinit**):
@@ -315,8 +315,3 @@ compinit
 zplugin cdreplay -q # <- execute compdefs provided by rest of plugins
 zplugin cdlist # look at gathered compdefs
 ```
-
-## IRC channel
-Simply connect to [chat.freenode.net:6697](ircs://chat.freenode.net:6697/%23zplugin) (SSL) or [chat.freenode.net:6667](irc://chat.freenode.net:6667/%23zplugin) and join #zplugin.
-
-Following is a quick access via Webchat [![IRC](https://kiwiirc.com/buttons/chat.freenode.net/zplugin.png)](https://kiwiirc.com/client/chat.freenode.net:+6697/#zplugin)
